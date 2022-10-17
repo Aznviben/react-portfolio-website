@@ -5,14 +5,22 @@ import Nav from './components/nav/nav'
 
 //Pages
 import About from './components/about/about'
-import contacts from './components/contacts/contact'
-import experience from './components/experience/experience'
-import tesetimonials from './components/testimonials/testimonials'
+import Contacts from './components/contacts/contact'
+import Experience from './components/experience/experience'
+import Testimonials from './components/testimonials/testimonials'
+import Services from './components/services/services'
 function App() {
   return (
     <>
       <Header/>
+      <Nav/>
+      <Experience/>
+      <Services/>
+      <Portfolio/>
+      <About />
+
       <Footer/>
+
 
     </>
   )
