@@ -58,11 +58,12 @@ h1{
 section{
     margin-top:8rem;
     height: 100vh;
+    text-align: center;
 }
 
 section > h2,
 section >h h5{
-    text-align: center;
+
     color: var(--color-light);
 
 }

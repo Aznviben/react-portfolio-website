@@ -1,4 +1,5 @@
 import React from 'react'
+import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {BsFillAwardFill} from 'react-icons/bs'
 import {FiUsers} from 'react-icons/fi'
@@ -6,6 +7,7 @@ import {AiFillFileText} from 'react-icons/ai'
 function About() {
   return (
     <div>
+
         <section id='about'>
           <h5>Get to know</h5>
           <h2>About Me</h2>
@@ -41,7 +43,7 @@ function About() {
                illum dolores, consectetur placeat vero sit cumque aperiam facilis ex,
                 quos cupiditate veniam nobis doloribus.
             </p>
-            <a href='#contact' classname='btn btn-primary'>Lets Talk</a>
+            <a href='#contact' className='btn btn-primary'>Lets Talk</a>
 
             </div>
           </div>
