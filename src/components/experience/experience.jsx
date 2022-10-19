@@ -8,11 +8,81 @@ function Experience() {
           <h5>What Skills I Have</h5> 
           <h2>My Experience</h2>
 
-          <div className="container experience_container">
-            <div className="experience__frontend"></div>
-            
-            
-            
+          <div className="container experience__container">
+            <div className="experience__frontend">
+              <h3>Frontend Development</h3>
+            <div className="experience__content">
+              <article className="experience__details">
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>HTML</h4>
+                  <small className="text-light">Experienced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>CSS</h4>
+                  <small className="text-light">Experienced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>JavaScript</h4>
+                  <small className="text-light">Experienced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>React</h4>
+                  <small className="text-light">Experienced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsFillPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Bootstrap</h4>
+                  <small className="text-light">Experienced</small>
+                </div>
+              </article>
+            </div>
+          </div>
+{/*backend*/}
+          <div className="experience__backend">
+              <h3>Backend Development</h3>
+            <div className="experience__content">
+              <article className="experience__details">
+                <BsFillPatchCheckFill className='experience_detial-icon'/>
+                <div>
+                <h4>NodeJs</h4>
+                <small className="text-light">Experienced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsFillPatchCheckFill className='experience_detial-icon'/>
+                <div>
+                <h4>PHP</h4>
+                <small className="text-light">Experienced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsFillPatchCheckFill className='experience_detial-icon'/>
+                <div>
+                <h4>MySQL</h4>
+                <small className="text-light">Experienced</small>
+                </div>
+              </article>
+              <article className="experience__details">
+                <BsFillPatchCheckFill className='experience_detial-icon'/>
+                <div>
+                <h4>MongoDB</h4>
+                <small className="text-light">Experienced</small>
+                </div>
+              </article>
+            </div>
+          </div>
           </div> 
 
           
